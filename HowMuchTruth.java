@@ -16,7 +16,7 @@ public class HowMuchTruth {
 	public static int countTrue(boolean[] arr) {
 	int count = 0;
 	for (boolean truth : arr){
-	    if (truth == true) count++;
+	    if (truth) count++;
 		}
 	return count;
 	}
