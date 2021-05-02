@@ -14,10 +14,10 @@ import java.util.stream.IntStream;
 
 public class HowMuchTruth {
 	public static int countTrue(boolean[] arr) {
-		int count = 0;
-		for (boolean truth : arr){
-			if (truth == true) count++;
+	int count = 0;
+	for (boolean truth : arr){
+	    if (truth == true) count++;
 		}
-		return count;
+	return count;
 	}
 }
